@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+
+        </div>
+        <div class="header header_fixed">
+            <div class="header__top-block">
+                <img src="img/logo.svg" alt="logo" class="header__top-block__logo">
+                <div class="header__top-block__text">TO-DO's</div>
+            </div>
+            <div class="header__bottom-block">
+                <div class="header__bottom-block__tasks header__bottom-block__tasks-to-do header__bottom-block__tasks_active">
+                    <img class="icons" src="img/checkMark.png" alt="checkMark">
+                    <div class="header__bottom-block__tasks__text">Tasks</div>
+                </div>
+                <div class="header__bottom-block__tasks header__bottom-block__tasks-saved">
+                    <img class="icons" src="img/star.png" alt="star">
+                    <div class="header__bottom-block__tasks__text">Saved</div>
+                </div>
+                <div class="header__bottom-block__tasks header__bottom-block__tasks-completed">
+                    <img class="icons" src="img/bin icon.png" alt="bin">
+                    <div class="header__bottom-block__tasks__text">Bin</div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block">
+            <div class="main-block__lists main-block__lists-to-do main-block__lists_active">
+                <div class="main-block__header">Active tasks</div>
+                <div class="main-block__lists__tasks main-block__lists-to-do__tasks">
+                    <div class="main-block__lists__tasks__item main-block__lists__tasks__item__adder">
+                        <div class="main-block__lists__tasks__item__title">add a task</div>
+                        <img class="add-task__btn" src="img/plus sign.svg" alt="addTask">
+                    </div>
+                    <!-- Добавленные таски -->
+                </div>
+            </div>
+            <div class="main-block__lists main-block__lists-saved">
+                <div class="main-block__header">Saved tasks</div>
+                <div class="main-block__lists__tasks main-block__lists-saved__tasks">
+                    <!-- Сохраненные таски -->
+                </div>
+            </div>
+            <div class="main-block__lists main-block__lists-bin">
+                <div class="main-block__header">Bin</div>
+                <div class="main-block__lists__tasks main-block__lists-bin__tasks">
+                    <!-- Корзина с тасками -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2bb0922b4d.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
